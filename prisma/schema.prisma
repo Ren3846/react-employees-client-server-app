@@ -16,6 +16,7 @@ model User {
   password        String
   name            String
   createdEmployee Employee[]
+  role            String
 }
 
 model Employee {
